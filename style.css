@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    overflow-x: hidden;
+  }
+  
+  .main {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    background-image: url("https://images.unsplash.com/photo-1509803874385-db7c23652552?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+  }
+  
+  .nav > h2 {
+    font-family: "Shadows Into Light Two";
+    font-size: 30px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    color: #fff;
+  }
+  
+  .nav > i {
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+  .full {
+    height: 100%;
+    width: 20%;
+    background-color: #ffffff6b;
+    position: absolute;
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 100px 60px;
+  }
+  
+  .full > h4 {
+    font-size: 40px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: "Playfair Display";
+    color: #191919e0;
+  }
+  
+  .full > i {
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    font-size: 25px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    color: #191919e0;
+  }
+  
